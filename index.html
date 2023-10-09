@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+<script src="gsap.min.js" deffer></script> 
+<script src="script.js" deffer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">joy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- carosol statrt -->
+<!-- <div class="carosoll">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" >
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/8915381_4021509.jpg" class="d-block carosolimg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/ezgif.com-gif-maker.jpg" class="d-block carosolimg" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/8915381_4021509.jpg" class="d-block carosolimg " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+</div> -->
+<div class="container-fluid hero">
+  <div class="row">
+    <div class="col">
+     <div class="heroimg d-flex">
+      <div class="center w-75 mx-auto">
+        <h2 class="text-light text-center full">Hi,I'm <span class="text-danger fw-bold">Joy</span> <br>Full Stack Web Developer</h2>
+        <p class="text-center text-light para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia autem quasi error explicabo atque hic dolorem ut, quibusdam natus nobis. Cum molestiae ipsum tempora perferendis veniam quae, sunt dolorum sed delectus consequuntur, maiores officia distinctio quo quod. Illum natus, illo maiores quas laudantium, saepe earum deleniti pariatur, unde temporibus sed?</p>
+        <button href="" class="btn btn-danger centerdiv mx-auto d-block">Show More</button>
+      </div>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="container p-5 mb-3">
+  <h3 class="text-center mb-3 ">All Product List</h3>
+  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto iste, deleniti neque consequatur temporibus perspiciatis, ullam, explicabo accusantium velit numquam fugiat. Quisquam, sunt voluptas?</p>
+    <div class="row  mt-2 bg-dark ">
+   
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3 ">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3 ">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3 ">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-lg-4 mt-3 ">
+            <div class="card" >
+                <img src="img/hjJPG.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="/" class="btn btn-primary">See Detail</a>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- About Me start -->
+<div class="container p-5 bg-secondary">
+  <div class="row p-5">
+    <div class="col-md-12">
+      <h2 class="text-center mt-4">About Me</h2>
+
+    <div class="spin">
+      <img src="img/ezgif.com-gif-maker.jpg" alt="" class="aboutimg">
+      <!-- <span class="spinspan"></span> -->
+    </div>
+      <p class="p-3 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias, rem cum. Doloremque vitae, molestias magnam ut laudantium ipsam pariatur sequi ea consequatur quo tenetur illum laborum earum et commodi esse, assumenda incidunt. Iusto, suscipit ab! Adipisci, soluta nisi. Molestiae eligendi dolores quae non vero fugit veritatis. Asperiores nesciunt velit corporis.
+      </p>
+     
+      <center class="btn btn-danger mx-auto d-block w-25">Show More</center>
+    
+    </div>
+  </div>
+</div>
+<!-- skill section start -->
+<div class="container mt-4 p-5">
+    <h2 class="text-center bg-info p-3 ">My Skill</h2>
+    <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum ea dicta, nihil autem veniam ipsum, et quas nemo saepe modi, debitis quisquam. Accusamus quam exercitationem facilis doloribus dicta. Qui, quam? Recusandae doloribus alias veritatis modi aspernatur dolores beatae, tempora saepe optio! Hic, sequi! Nihil praesentium fugit tenetur temporibus, explicabo facilis!</p>
+    <div class="row">
+        <div class="col">
+            <div class="skill mt-5 pb-4">
+                <div class="card" >
+            
+                  <div class="card-body lineargradient ">
+                    <h3 class="card-title text-light text-center">Frontend</h3>
+                    <ul class="text-center f-bold">HTML</ul >
+                    <ul class="text-center f-bold">CSS</ul ">
+                    <ul class="text-center f-bold">BOOTSTRAP</ul ">
+                    <ul class="text-center f-bold">GSAP</ul>
+                    <ul class="text-center f-bold">JAVASCRIPT</ul >
+                  
+                  
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+          <div class="skill mt-5 pb-4">
+              <div class="card" >
+          
+                <div class="card-body lineargradient ">
+                  <h3 class="card-title text-light text-center">Backend</h3>
+                  <ul class="text-center f-bold">HTML</ul >
+                  <ul class="text-center f-bold">CSS</ul ">
+                  <ul class="text-center f-bold">BOOTSTRAP</ul ">
+                  <ul class="text-center f-bold">GSAP</ul>
+                  <ul class="text-center f-bold">JAVASCRIPT</ul >
+                
+                
+                </div>
+              </div>
+          </div>
+      </div>
+        <div class="col">
+            <div class="skill mt-5 pb-4">
+                <div class="card">
+            
+                  <div class="card-body lineargradient">
+                    <h3 class="card-title text-light text-center">Framework</h3>
+                    <ul class="text-center f-bold">JAVASCRIPT</ul >
+                    <ul class="text-center f-bold">MYSQLI</ul ">
+                    <ul class="text-center f-bold">LARAVEL</ul ">
+                    <ul class="text-center f-bold">MONGOBD</ul>
+                    <ul class="text-center f-bold">FILEJILA</ul >
+                  
+                  
+                  </div>
+                </div>
+            </div>
+        </div>
+   
+        
+        <div class="col">
+          <div class="skill mt-5 pb-4">
+              <div class="card">
+          
+                <div class="card-body lineargradient">
+                  <h3 class="card-title text-light text-center">Framework</h3>
+                  <ul class="text-center f-bold">JAVASCRIPT</ul >
+                  <ul class="text-center f-bold">MYSQLI</ul ">
+                  <ul class="text-center f-bold">LARAVEL</ul ">
+                  <ul class="text-center f-bold">MONGOBD</ul>
+                  <ul class="text-center f-bold">FILEJILA</ul >
+                
+                
+                </div>
+              </div>
+          </div>
+      </div>
+ 
+    </div>
+</div>
+<div class="container bg ">
+  <div class="row">
+    <div class="col-md-8 g-3 mx-auto">
+      <h2 class="text-center p-4">Contact Me</h2>
+      <form action="" class="row g-3 ">
+        <div class="col-md-6 mb-3">
+          <input type="text" name="" class="form-control" placeholder="Name Plz">
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="email" name=""class="form-control" placeholder="Email plz">
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="number" name=""class="form-control" placeholder="phone number Plz">
+        </div>
+        <div class="col-md-6 mb-3">
+          <input type="text" name=""class="form-control" placeholder="Email Subject ">
+        </div>
+        <div class="col-md-12 mb-3">
+         <textarea name="" id="" cols="97" rows="10"></textarea>
+        </div>
+   <div class="w-25 mx-auto">
+    <button class="btn btn-success btn-sm mb-5">Submit Now</button>
+   </div>
+      </form>
+    </div>
+  </div>
+</div>
+<!-- footer start -->
+<footer>
+    <div>
+        <div class="footer-area mt-5">
+            <div class="container mt-4">
+                <div class="row p-2">
+                    <div class="col-md-3">
+                        <h4 class="footer-heading">Joy World</h4>
+                        <div class="footer-underline"></div>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer-heading">Quick Links</h4>
+                        <div class="footer-underline"></div>
+                        <div class="mb-2"><a href="" class="text-white">Home</a></div>
+                        <div class="mb-2"><a href="" class="text-white">About Us</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Contact Us</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Blogs</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Sitemaps</a></div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer-heading">Shop Now</h4>
+                        <div class="footer-underline"></div>
+                        <div class="mb-2"><a href="" class="text-white">Collections</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Trending Products</a></div>
+                        <div class="mb-2"><a href="" class="text-white">New Arrivals Products</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Featured Products</a></div>
+                        <div class="mb-2"><a href="" class="text-white">Cart</a></div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4 class="footer-heading">Reach Us</h4>
+                        <div class="footer-underline"></div>
+                        <div class="mb-2">
+                            <p>
+                                <i class="fa fa-map-marker"></i> #444, some main road, some area, some street, bangalore, india - 560077
+                            </p>
+                        </div>
+                        <div class="mb-2">
+                            <a href="" class="text-white">
+                                <i class="fa fa-phone"></i> +91 888-XXX-XXXX
+                            </a>
+                        </div>
+                        <div class="mb-2">
+                            <a href="" class="text-white">
+                                <i class="fa fa-envelope"></i> fundaofwebit@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <center class=""> &copy; 2023 - Created By Joy. All rights reserved.</center>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-media">
+                            Get Connected:
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js" deffer></script>
+    
+    <script src="bootstrap.bundle.min.js"></script> 
+</body>
+</html>
